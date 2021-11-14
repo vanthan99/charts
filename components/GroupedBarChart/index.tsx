@@ -41,14 +41,6 @@ const GroupedBarChart = () => (
   <>
     <div className='header'>
       <h1 className='title'>Grouped Bar Chart</h1>
-      <div className='links'>
-        <a
-          className='btn btn-gh'
-          href='https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/GroupedBar.js'
-        >
-          Github Source
-        </a>
-      </div>
     </div>
     <Bar data={data} options={options} />
   </>

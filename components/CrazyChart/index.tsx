@@ -55,15 +55,7 @@ const CrazyChart = () => {
   return (
     <>
       <div className='header'>
-        <h1 className='title'>Crazy Chart</h1>
-        <div className='links'>
-          <a
-            className='btn btn-gh'
-            href='https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/Crazy.js'
-          >
-            Github Source
-          </a>
-        </div>
+        <h1 className='title'>Crazy Chart</h1>   
       </div>
       <Bar data={data} options={options} />
     </>
